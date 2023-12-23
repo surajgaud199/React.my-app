@@ -1,0 +1,22 @@
+.logo{
+    border: solid 0.50px red;
+    width: 70px;
+}
+.logo img{
+    width: 100%;
+}
+.container{
+    padding: 10px;
+    margin-top: 20px;
+   
+    background-color: aquamarine;
+    /* display: flex; */
+}
+/* .col-60{
+    margin: 0 auto;
+    width: 60%;
+    padding: 50px;
+}
+.row{
+    display: flex;
+} */
