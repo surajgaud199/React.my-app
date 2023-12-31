@@ -10,6 +10,10 @@ import ClasscomponentProps from "./04ClasscomponentProps";
 import Classmaincard from "./07Classmaincard";
 import Classcomponentstate from "./08Classcomponentstate";
 import Classcomponentconditionalrendering from "./09Classcomponenetconditional renderimg";
+import UncontrolledComponents from "./10Uncontrolled Components";
+import ControlledComponents from "./11ControlledComponents";
+import Listandkeys from "./12Listandkeys";
+
 
 class Classcomporoutes extends Component {
     render(){
@@ -25,6 +29,9 @@ class Classcomporoutes extends Component {
                     <Route path="Classmaincard" element = {<Classmaincard/>} />
                     <Route path="Classcomponentstate" element = {<Classcomponentstate/>} />
                     <Route path="Classcomponentconditionalrendering" element = {<Classcomponentconditionalrendering/>} />
+                    <Route path="UncontrolledComponents" element = {<UncontrolledComponents/>} />
+                    <Route path="ControlledComponents" element = {<ControlledComponents/>} />
+                    <Route path="Listandkeys" element = {<Listandkeys/>} />
                     </Route>
                 </Routes>
                 {/* <Outlet/> */}
